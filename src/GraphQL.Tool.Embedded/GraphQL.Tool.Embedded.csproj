@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>GraphQL.Tool.Embedded</PackageId>
+    <PackageVersion>$(PackageVersion)</PackageVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/ZEXSM/GraphQL.Tool.Embedded</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ZEXSM/GraphQL.Tool.Embedded</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>graphql;graphql-playground;graphql-voyager</PackageTags>
+    <Authors>ZEXSM</Authors>
+    <Description>Library of GraphQL tools such as GraphQL Playground and GraphQL Voyager.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Playground\index.html" />
+    <EmbeddedResource Include="Voyager\index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Playground\Assets\*" />
+    <EmbeddedResource Include="Voyager\Assets\*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+</Project>

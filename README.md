@@ -1,1 +1,1 @@
-# GraphQL.Playground
+# GraphQL.Tool.Embedded
