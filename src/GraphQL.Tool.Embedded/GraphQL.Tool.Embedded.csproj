@@ -12,7 +12,7 @@
     <PackageProjectUrl>https://github.com/ZEXSM/GraphQL.Tool.Embedded</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ZEXSM/GraphQL.Tool.Embedded</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>graphql;graphql-playground;graphql-voyager</PackageTags>
+    <PackageTags>graphql;graphql-playground;graphql-voyager;graphql-tools;graphql-dotnet</PackageTags>
     <Authors>ZEXSM</Authors>
     <Description>Library of GraphQL tools such as GraphQL Playground and GraphQL Voyager.</Description>
   </PropertyGroup>
