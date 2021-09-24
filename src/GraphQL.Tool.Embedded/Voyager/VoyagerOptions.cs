@@ -12,6 +12,8 @@ namespace GraphQL.Tool.Embedded.Voyager
                 ["Accept"] = MediaTypeNames.Application.Json,
                 ["Content-Type"] = MediaTypeNames.Application.Json,
             };
+
+            // TODO implement https://github.com/APIs-guru/graphql-voyager#properties
         }
     }
 }
